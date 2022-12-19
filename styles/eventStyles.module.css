@@ -5,6 +5,8 @@
   border-radius: 5px;
   clear: both;
   padding:10px;
+  margin-top:10px;
+  position: relative;
 }
 
 .dashboardEventBoxDate{
@@ -31,7 +33,7 @@
 }
 
 .dashboardEventBoxContent{
-  padding: 10px 30px 10px 30px;
+  padding: 0px 30px 10px 30px;
   float: left;
   width: 541px;
 }
@@ -39,25 +41,19 @@
 .dashboardEventBoxMeta{
   width:100%;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
+  margin-bottom:12px;
 }
 
-.dashboardEventBoxTime{
-
+.dashboardEventBoxMeta span{
+  display: inline-block;
+  margin:0 20px 0 0;
 }
 
-.dashboardEventBoxLink{
-
-}
-
-.dashboardEventBoxParticipants{
-
-}
-
-.dashboardEventBoxTitle{
-
+.dashboardEventMetaIcon{
+  margin-right: 5px;
 }
 
 .dashboardEventBoxTitle h2{
-  font-size:18px;
+  font-size:22px;
 }

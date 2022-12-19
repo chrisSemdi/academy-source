@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
-import DashboardSingleEvent from '../../components/userDashboard/dashboardSingleEvent.js';
+import SingleEventSummary from '../../components/userDashboard/singleEventSummary.js';
 
 export default function Dashboard({ children, home }) {
   return (
@@ -12,7 +12,7 @@ export default function Dashboard({ children, home }) {
       </Head>
       <main className={utilStyles.mainBackground}>
         <section className="upcoming-event-overview">
-          <DashboardSingleEvent />
+          <SingleEventSummary />
         </section>
       </main>
     </>
