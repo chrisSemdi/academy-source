@@ -30,7 +30,6 @@ function RenderIcon(props){
 
   return(
     <Image
-      priority
       className = {eventStyles.dashboardEventMetaIcon}
       src = {imgSrc}
       height = {25}

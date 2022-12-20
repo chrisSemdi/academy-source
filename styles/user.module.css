@@ -1,0 +1,184 @@
+.sidebarProfileInfo{
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebarAvatar{
+  border-radius: 100%;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 33px;
+  left: 61px;
+}
+
+.sidebarUserInfo{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: "Exo", sans-serif;
+}
+
+.sideBarUserLevel{
+  width:161px;
+  height:166px;
+  margin:0 auto;
+  position: relative;
+}
+
+.userLevel{
+  border:12px solid rgba(0, 33, 59, 0.04);
+  border: 12px solid #DC6A26;
+  width: 61px;
+  height:66px;
+  margin-top:20px;
+  position:absolute;
+}
+
+
+.level1 {
+  border-radius: 0 0 0 100%;
+  border-right: none;
+  border-top: none;
+  bottom: 0;
+}
+
+.level2 {
+  border-radius: 100% 0 0 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.level3 {
+  border-radius: 0 100% 0 0;
+  border-left: none;
+  border-bottom: none;
+  right: 0;
+}
+
+.level4 {
+  border-radius: 0 0 100% 0;
+  border-left: none;
+  border-top: none;
+  bottom: 0;
+  right: 0;
+}
+
+.level5 {
+  border-radius: 0 0 100% 0;
+  display:none;
+}
+
+.level6 {
+  border-radius: 0 100% 0 0;
+  display:none;
+}
+
+.healthpoints{
+  width:100%;
+  height:25px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.healthpoints::-webkit-meter-bar {
+  background: none; /* Required to get rid of the default background property */
+  background-color: rgba(0, 33, 59, 0.04);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border:none;
+  height:20px
+}
+
+.healthpoints::before{
+  content: "90%";
+    background: url(/images/healthpointsHeart.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: 10px;
+    padding: 4px 30px 3px 30px;
+    font-family: "Exo";
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+}
+
+.healthpoints::-webkit-meter-optimum-value {
+  background-color: #698F3F;
+}
+
+.healthpoints::-webkit-meter-suboptimum-value{
+  background-color: #DBD360;
+}
+
+
+.healthpoints::-webkit-meter-even-less-good-value{
+  background-color: #DB4B71;
+}
+
+.xpHeading{
+  background: rgba(0, 33, 59, 0.04);
+  border-width: 0px 3px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  font-family: 'Exo';
+  font-style: normal;
+  font-size: 32px;
+  line-height: 43px;
+  vertical-align: middle;
+  text-align: center;
+  color: #00213B;
+  margin-bottom:30px;
+}
+
+.xpTable{
+  width: 100%;
+  clear: both;
+  margin:0 auto;
+}
+
+.xpTable::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.xpColumn{
+  float:left;
+  margin-right: 10px;
+  line-height: 35px;
+  width:45%;
+}
+
+.xpColumnRight{
+  float:left;
+  margin-left: 10px;
+  line-height: 35px;
+  width:45%;
+}
+
+.xpColumnRight img{
+  float:left;
+}
+
+.xpSubCats{
+  margin-top:15px;
+  clear:both;
+}
+
+.xpSubCat{
+  text-align: right;
+  margin-right: 6px;
+  line-height: 28px;
+}
+
+.xpSubCatRight{
+  text-align: left;
+  line-height: 28px;
+}
+
+.xpSubCatRight img {
+    float: left;
+    margin-right: 6px;
+}
